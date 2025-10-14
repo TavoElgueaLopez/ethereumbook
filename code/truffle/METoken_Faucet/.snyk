@@ -1,0 +1,69 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - truffle-wallet-provider > web3-provider-engine > request > extend:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: 'npm:extend:20180424'
+        path: truffle-wallet-provider > web3-provider-engine > request > extend
+  'npm:hoek:20180212':
+    - truffle-wallet-provider > web3-provider-engine > request > hawk > hoek:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: 'npm:hoek:20180212'
+        path: truffle-wallet-provider > web3-provider-engine > request > hawk > hoek
+    - truffle-wallet-provider > web3-provider-engine > request > hawk > boom > hoek:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          truffle-wallet-provider > web3-provider-engine > request > hawk > boom
+          > hoek
+    - truffle-wallet-provider > web3-provider-engine > request > hawk > sntp > hoek:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          truffle-wallet-provider > web3-provider-engine > request > hawk > sntp
+          > hoek
+    - truffle-wallet-provider > web3-provider-engine > request > hawk > cryptiles > boom > hoek:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          truffle-wallet-provider > web3-provider-engine > request > hawk >
+          cryptiles > boom > hoek
+  SNYK-JS-LODASH-567746:
+    - truffle-wallet-provider > web3-provider-engine > async > lodash:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: SNYK-JS-LODASH-567746
+        path: truffle-wallet-provider > web3-provider-engine > async > lodash
+    - truffle-wallet-provider > web3-provider-engine > ethereumjs-block > async > lodash:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-wallet-provider > web3-provider-engine > ethereumjs-block >
+          async > lodash
+    - truffle-wallet-provider > web3-provider-engine > ethereumjs-vm > async > lodash:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-wallet-provider > web3-provider-engine > ethereumjs-vm > async
+          > lodash
+    - truffle-wallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > async > lodash:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-wallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > async > lodash
+    - truffle-wallet-provider > web3-provider-engine > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-wallet-provider > web3-provider-engine > ethereumjs-vm >
+          async-eventemitter > async > lodash
+  'npm:stringstream:20180511':
+    - truffle-wallet-provider > web3-provider-engine > request > stringstream:
+        patched: '2025-10-14T23:15:25.353Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          truffle-wallet-provider > web3-provider-engine > request >
+          stringstream
